@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;;
+}
+#page{
+    display: flex;
+}
+#left{
+    background-color: #129c5c;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 67%;
+}
+#logo{
+    font-size: 40px;
+    padding: 5px;
+    font-weight: 900;
+    position:absolute;
+    color: white;
+    margin-left: 10px;
+}
+#logoCaption{
+    font-size: 22px;
+}
+sup{
+    font-size: 22px;
+}
+#right{
+    background-color: #1e2936;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    color: white;
+}
+#intro{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 50px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+}
+#form{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+input{
+    background-color: #1e2936;
+    border: 1px solid #6ea6f0 ;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    font-weight: 100;
+    width: 250px;
+}
+
+#leftFormContent{
+    font-weight: 300;
+    padding: 10px;
+}
+input:valid{
+    border: 1px solid #129c5c;
+}
+#formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+#leftf{
+    display: flex;
+    flex-direction: column;
+}
+#rightf{
+    display: flex;
+    flex-direction: column;
+}
+#submit{
+    max-width: 150px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #129c5c;
+    padding: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+label{
+    padding: 5px;
+}
+
+#login{
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.76);
+    margin-top: 30px;
+}
+#green{
+    color: #129c5c;
+    font-weight: 400;
+    cursor: pointer;
+}

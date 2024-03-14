@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Register</title>
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+    <script src="./script.js" defer></script>
+    <link href="./assets/ico.png" type="image/png" rel="icon">
+</head>
+<body>
+    <div id="root">
+        <div id="page">
+                <div id="logo">Liceria<sup>TM</sup></div>
+                <div id="left">
+                <img src="./assets/signUp.svg" alt="signUp" id="leftImage" height="500rem" width="auto">
+                <div id="logoCaption">Join now to get exciting deals!</div>
+            </div>
+            <div id="right">
+                <div id="intro">Get Started 
+                    <form id="form">
+                        <div id="formContainer">
+                        <div id="leftf">
+                        <label for="firstName">First Name</label>
+                        <input id="firstName" name="firstName" type="text" required minlength="2">
+                        <label for="email">E-Mail</label>
+                        <input id="email" name="email" type="email" required>
+                        <label for="password">Password</label>
+                        <input id="password" name="password" type="password" required minlength="8">
+                    </div><div id="rightf">
+                        <label for="lastName">Last Name</label>
+                        <input id="lastName" name="lastName" type="text" required minlength>
+                        <label for="phone">Phone</label>
+                        <input id="phone" name="phone" type="tel" required minlength="10" maxlength="13">
+                        <label for="confirm">Confirm Password</label>
+                        <input id="confirm" name="confirm" type="password" required minlength="8">
+                    </div></div>
+                        <button type="submit" id="submit">Create Account</button>
+                        <div id="login">Already have an account?<div id="green">LOG IN</div></div>
+                    </form>
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
